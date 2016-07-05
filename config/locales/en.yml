@@ -22,8 +22,17 @@ en:
     login_path: "Log In"
     about_path: "About"
     team: "Food & Drink by fdf_5 Team"
+    force_login: "Please login to continue"
   home:
     welcome: "Welcome to the Food & Drink"
     sign: "Sign up now!"
   help:
     des: "This is help page"
+  user:
+    destroy: "User deleted"
+    nil: "Can't find this user"
+    no: "Can't delete admin"
+  button:
+    delete: "Delete"
+  confirm:
+    sure: "Sure?"
