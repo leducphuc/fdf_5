@@ -1,0 +1,9 @@
+<li>
+  <span><%= link_to user.name, user %></span>
+  <% unless user.is_admin? %>
+    <%= "|" %>
+    <%= link_to t("button.delete"), admin_user_path(user),
+      method: :delete, 
+      data: {confirm: t("confirm.sure")} %>
+  <% end %>
+</li>
