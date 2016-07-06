@@ -1,7 +1,7 @@
 en:
   session:
     welcome: "Welcome to our App"
-    goodbye: "Good bye and see you again" 
+    goodbye: "Good bye and see you again"
     error: "Wrong email or password!!"
     login: "Login"
   application:
@@ -24,6 +24,7 @@ en:
     team: "Food & Drink by fdf_5 Team"
     force_login: "Please login to continue"
     all_users: "All Users"
+    email: "Email: "
   home:
     welcome: "Welcome to the Food & Drink"
     sign: "Sign up now!"
@@ -37,3 +38,20 @@ en:
     delete: "Delete"
   confirm:
     sure: "Sure?"
+  product:
+    create_title: "Create Product"
+    create_product: "Create Product"
+    edit_product: "Edit Product"
+    edit_title: "Edit Product"
+    products: "Products"
+    show_product: "Product"
+    create_notice: "Product has been created."
+    create_alert: "Product has not been created."
+    form_error: "error"
+    contain: "The form contains"
+    update_notice: "Product has been updated."
+    update_alert: "Product has not been updated."
+    create_button: "Create new product"
+  classify:
+    drink: "Drink"
+    food: "Food"

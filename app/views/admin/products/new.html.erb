@@ -1,0 +1,4 @@
+<%= provide :title, t("product.create_title") %>
+<h1><%= t "product.create_product" %></h1>
+<%= render "form", product: @product, product_select: @product_select,
+  category_select: @category_select  %>
