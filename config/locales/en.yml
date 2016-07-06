@@ -23,6 +23,7 @@ en:
     about_path: "About"
     team: "Food & Drink by fdf_5 Team"
     force_login: "Please login to continue"
+    all_users: "All Users"
   home:
     welcome: "Welcome to the Food & Drink"
     sign: "Sign up now!"
