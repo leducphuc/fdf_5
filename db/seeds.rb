@@ -1,18 +1,18 @@
 User.create name: "admin",
   email: "admin@admin.com",
-  password: "123456", 
+  password: "123456",
   password_confirmation: "123456",
-  is_admin: true 
+  is_admin: true
 
 User.create name: "nobita",
   email: "nobita@123.com",
-  password: "123456", 
+  password: "123456",
   password_confirmation: "123456",
   is_admin: true
 
 User.create name: "user",
   email: "user@user.com",
-  password: "123456", 
+  password: "123456",
   password_confirmation: "123456"
 
 99.times do |n|
@@ -25,3 +25,4 @@ User.create name: "user",
     password_confirmation: password,
     is_admin: false
 end
+Category.create name: "Lemon"
