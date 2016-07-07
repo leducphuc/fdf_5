@@ -1,0 +1,9 @@
+<h1><%= t "application.user_suggest" %></h1> 
+<div class= "row">
+  <div class= "col-md-6 col-md-offset-3">
+    <%= form_for @suggest do |f| %>
+      <%= f.text_area :content, class: "form-control" %>
+      <%= f.submit t("suggest.send_suggest"), class: "btn btn-primary" %>
+    <% end %>
+  </div>
+</div>
