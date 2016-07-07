@@ -5,4 +5,8 @@ class User < ActiveRecord::Base
   has_many :orders, dependent: :destroy
 
   has_secure_password
+
+  def current_user? user
+    self == user
+  end  
 end

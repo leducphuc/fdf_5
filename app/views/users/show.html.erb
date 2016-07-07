@@ -12,6 +12,9 @@
         <b><%= t "application.email" %></b>
         <%= @user.email %>
       </p>
+      <% if current_user.current_user? @user %>
+        <%= link_to t("user.edit"), edit_user_path(current_user)  %>
+      <% end %>
     </div>
   </div>
 </div>
