@@ -10,6 +10,7 @@ en:
     help_title: "Help"
     about_title: "About"
     login_title: "Log in"
+    edit_title: "Edit"
     account: "Account"
     login: "Log in"
     users: "Users"
@@ -34,7 +35,12 @@ en:
     destroy: "User deleted"
     nil: "Can't find this user"
     no: "Can't delete admin"
+    edit: "Edit"
+    error: "Don't try to be stupid"
+    update-success: "Profile updated"
+    save-change: "Save"
   button:
     delete: "Delete"
+    confirmation: "Confirmation"
   confirm:
     sure: "Sure?"
