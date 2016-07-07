@@ -24,6 +24,7 @@ en:
     team: "Food & Drink by fdf_5 Team"
     force_login: "Please login to continue"
     all_users: "All Users"
+    email: "Email: "
   home:
     welcome: "Welcome to the Food & Drink"
     sign: "Sign up now!"

@@ -1,0 +1,17 @@
+<% provide :title, @user.name %>
+<div class="row">
+  <div class="col-md-4 center">
+    <div class="user_info">
+      <p>
+        <%= gravatar_for @user %>
+      </p>
+      <p>
+        <b><%= @user.name %></b>
+      </p>
+      <p>
+        <b><%= t "application.email" %></b>
+        <%= @user.email %>
+      </p>
+    </div>
+  </div>
+</div>
