@@ -1,0 +1,10 @@
+<li id="suggest-<%= suggest.id %>" class="list-group-item">  
+  <div class="gravatar"><%= gravatar_for suggest.user %></div>
+  <div class="user-timestamp">
+    <span class="user"> <%= link_to suggest.user.name, suggest.user %> </span>
+    <span class="timestamp">
+    	<%= t "application.post_ago" %> <%= time_ago_in_words suggest.created_at %> <%= t "application.ago_ago" %>   		
+    </span>
+  </div>
+  <span class="content"><textarea class="form-control" readonly><%= suggest.content %></textarea></span>
+</li>
