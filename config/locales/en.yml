@@ -27,6 +27,9 @@ en:
     all_users: "All Users"
     email: "Email: "
     user_suggest: "Suggest"
+    admin_suggest: "Show Suggest"
+    post_ago: "Post"
+    ago_ago: "ago"
   home:
     welcome: "Welcome to the Food & Drink"
     sign: "Sign up now!"

@@ -1,0 +1,17 @@
+<% provide :title, t("application.all_users") %>
+<h1><%= t "application.users" %></h1>
+<div class="list_users">
+  <div class="paginate">
+    <%= will_paginate %>
+  </div>
+  <div class="suggests">
+    <ul class="list-group">
+      <% @suggests.each do |suggest| %>
+        <%= render suggest %>
+      <% end %>
+    </ul>
+  </div>
+  <div class="paginate">
+    <%= will_paginate %>
+  </div>
+</div>
